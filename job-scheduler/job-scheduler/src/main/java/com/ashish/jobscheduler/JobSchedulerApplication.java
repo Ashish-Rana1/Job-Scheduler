@@ -9,7 +9,6 @@ public class JobSchedulerApplication {
 
 	public static void main(String[] args)
 	{
-
 		SpringApplication.run(JobSchedulerApplication.class, args);
 	    System.out.println("India");
 	}
