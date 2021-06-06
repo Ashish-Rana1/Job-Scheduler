@@ -4,6 +4,10 @@ public class Employee {
     private String firstName;
     private String lastName;
 
+    public Employee(){
+
+    }
+
     public  Employee(String fName, String lName){
         this.firstName = fName;
         this.lastName = lName;

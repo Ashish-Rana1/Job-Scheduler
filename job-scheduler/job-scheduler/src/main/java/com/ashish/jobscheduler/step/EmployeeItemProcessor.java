@@ -7,7 +7,7 @@ public class EmployeeItemProcessor implements ItemProcessor<Employee, Employee> 
 
     @Override
     public Employee process(Employee item) throws Exception {
-        String firstName = item.getFirstName().toUpperCase();
+        String firstName = item.getFirstName().toUpperCase()+"I love India";
         String lastName = item.getLastName().toUpperCase();
 
         Employee empProcess = new Employee(firstName, lastName);
